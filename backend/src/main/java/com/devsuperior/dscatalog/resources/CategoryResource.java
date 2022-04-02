@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.devsuperior.dscatalog.dto.CategoryDTO;
-import com.devsuperior.dscatalog.services.CategoryService; 
+import com.devsuperior.dscatalog.services.CategoryService;
+import com.devsuperior.dscatalog.services.exceptions.EntityNotFoundException; 
 
 @RestController
 @RequestMapping(value = "/categories")
